@@ -1,0 +1,29 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bellota Text';
+    height: 7vh;
+    border: 3px solid grey;
+    background-color: #262626;
+    box-sizing: border-box;
+}
+
+
+.nav-bar label{
+    cursor: pointer;
+    color: white;
+    margin: 5px 0px;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+.nav-bar label:hover{
+    cursor: pointer;
+    color: grey;
+}
+.active-link label{
+    color: #8800cc;
+}

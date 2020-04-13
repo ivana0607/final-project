@@ -1,0 +1,70 @@
+.welcome{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 82vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  
+    
+}
+.welcome-card{
+    border: 6px solid #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    background-color: #f1f1f1;
+}
+
+.welcome h1{
+    margin-top: 0px;
+    padding-top: 5vh;
+    font-family: 'Bellota Text';
+    -webkit-text-stroke: 3px gray;
+    color: #f1f1f1;
+    font-size: 50px;
+}
+.welcome h2{
+    font-family: 'Bellota Text';
+    -webkit-text-stroke: 2px gray;
+    color: #f1f1f1;
+    font-size: 40px;
+}
+.welcome h3{
+    font-family: 'Bellota Text';
+    color: lightgray;
+    font-size: 30px;
+    text-shadow: 2px 2px gray;
+}
+
+.btn-link{
+    border: 3px solid #0d0d0d;
+    padding: 10px;
+    width: 45%;
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Bellota Text';
+    font-weight: 600;
+    color: #262626;
+    background-color: #d9d9d9;
+}
+.btn-link:hover{
+    background-color: #E8E1EF;
+}
+
+@media (max-width:800px){
+    .welcome h1{
+        font-size: 30;
+    }
+    .welcome h2{
+        display: none;
+    }
+    .welcome h3{
+        display: none;
+    }
+
+}
